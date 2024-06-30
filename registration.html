@@ -1,0 +1,178 @@
+<!Doctype html>
+<html>
+     <head>
+         <title> Registration  </title>
+         <!-- <link rel="stylesheet" href="index.css"> -->
+         <!--Second layer of 1.html home page-->
+         <link rel="shortcut icon" type="x-icon" href="sorav_expo.png" >
+         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap'); 
+            :root{
+                --main-bg-color: #6a1a9b;
+            }
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                background-color: #231a32;
+                color:rgb(208, 204, 204);
+            }
+            header{
+                background-color: var(--main-bg-color);
+            }
+            #Registration{
+                color:white;
+                height:40px;
+                width: 100vw;
+                padding-top:2vh;
+            }
+            button{
+                height: 34px;
+                width: 90px;
+                background: #a403a4;
+                color: white;                
+                border-radius: 10px;
+                font-size: medium;
+                margin-top: -22px;
+            }
+            button:hover{
+                background-color: var(--main-bg-color);
+            }
+            .home_icon{
+                background-color: rgba(255, 255, 255, 0.373);
+                height:44px;
+                width:4vw;
+                position: absolute;
+                margin: 4px auto auto 8px;
+                border-radius: 8px;
+            }
+            header div a img{
+                max-height: 5vh;
+                margin: 5px auto auto 11px ;
+            }
+            .main_container{
+                height: 87vh;
+                width:90vw;
+                padding-left:26px;
+                margin: auto;
+                margin-top:2vh;
+                
+                background: rgba(201, 0, 255, 0.1);
+                border-radius: 16px;
+                backdrop-filter: blur(3.2px);
+                border: 1px solid rgba(201, 0, 255, 0.53);
+            }
+            .input1{
+                height: 30px;
+                width:20vw;
+                margin-left:12px;
+            }
+            .dob{
+                width:8vw;
+            }
+         </style>
+     </head>
+     <body>
+           <header>
+               <div class="home_icon">
+                    <a href="index.html">
+                        <img src="home.png" alt="Home">
+                    </a>
+                </div>  
+            <center>
+                <div id="Registration"><h2>Registration</h2></div>
+            </center>
+           </header>
+<main>
+    <div class="main_container">         
+           <br>
+        Your Name
+            <input type="text" placeholder="First Name" class="input1">
+            <input type="text" placeholder="Second Name" class="input1">
+        <br><br>
+        Username:
+            <input type="text" placeholder="no space" class="input1"> 
+        <br><br>
+        D.O.B
+            <input type="date" value="date of birth" name="trip start" max="2022-10-6" class="input1 dob">  
+        <br><br>
+        Gmail
+        <input type="text" placeholder="gmail.com" class="input1">
+        <br><br>
+        Mobile No. 
+        <input type="digit" placeholder="Enter 10 digit" class="input1">
+        <br><br><hr><br>
+        <h4 style="text-decoration: underline;">Additional Detail</h4>
+        <br><br>
+        Would you like to add more information about yourself:
+        <label>
+            <input type="radio" value="yes" name="interest">Yes
+            </label>
+        <label>
+            <input type="radio" value="no" name="interest">No
+            </label>
+        <br><br>
+        Are status:
+            <label>
+                <input type="radio" value="Single" name="status">Single
+            </label>
+            <label>
+                <input type="radio" value="Married" name="status">Married
+            </label>
+            <label>
+                <input type="radio" value="Complicated" name="status">Complicated
+            </label>
+            <label>
+                <input type="radio" value="Devorce" name="status">Devorce
+            </label>
+            <br><br>
+        Which contant do you like most: 
+            <label>
+                <input type="checkbox" value="contant" name"Funny"> Funny
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Art">Art 
+                and Craft</label>
+            <label>
+                <input type="checkbox" value="contant" name"Education">Education 
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Explore">Explore 
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Movitation">Movitation 
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Technology">Technology 
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Physical">Physical 
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Gym"> Gym
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Drawing"> Drawing
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Vlog">Vlog
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Cooking">Cooking 
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Photograpy "> Photograpy 
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"Videography">Videography  
+            </label>
+            <label>
+                <input type="checkbox" value="contant" name"More">More 
+            </label>
+            <br><br><br>
+            <button>Submit</button>
+    </div>
+</main>
+     </body>
+</html>
